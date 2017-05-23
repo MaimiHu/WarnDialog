@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- WarnDialog style -->
+    <style name="WarnDialog" parent="Theme.AppCompat.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <!--WarnDialog animation style-->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/warn_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/warn_dialog_close</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/warn_dialog_line</item>
+    </style>
+
+    <style name="line_vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/warn_dialog_line</item>
+    </style>
+
+</resources>

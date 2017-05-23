@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="warn_dialog_title_background">#ff189dff</color>
+    <color name="warn_dialog_no_button">#ff666666</color>
+    <color name="warn_dialog_yes_button">#ff189dff</color>
+    <color name="warn_dialog_default_press_background_color">#ffeeeeee</color>
+    <color name="warn_dialog_line">#ffe6e6e6</color>
+</resources>
